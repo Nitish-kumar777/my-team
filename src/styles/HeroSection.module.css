@@ -1,0 +1,83 @@
+/* styles/HeroSection.module.css */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: transparent;
+  }
+  
+  .textContainer {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .tagline {
+    color: rgb(127, 200, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .description {
+    line-height: 30px;
+    color: #fafafa;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .primaryButton, .secondaryButton {
+    padding: 0.8rem 2rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .primaryButton {
+    background-color: rgb(127, 200, 255);
+    color: white;
+  }
+  
+  .primaryButton:hover {
+    background-color: rgb(127, 200, 255);
+  }
+  
+  .secondaryButton {
+    background-color: transparent;
+    border: 2px solid rgb(127, 200, 255);
+    color: rgb(127, 200, 255);
+  }
+  
+  .secondaryButton:hover {
+    background-color: rgb(127, 200, 255);
+    color: white;
+  }
+  
+  .imageContainer {
+    height: 500px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .heroImage {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+  
